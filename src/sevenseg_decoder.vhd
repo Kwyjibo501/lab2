@@ -61,13 +61,7 @@ with i_Hex select
         "0001110" when "1111",
         "1111111" when others;
         
-o_seg_n <= w_seg(0) &
-           w_seg(1) &
-           w_seg(2) &
-           w_seg(3) &
-           w_seg(4) &
-           w_seg(5) &
-           w_seg(6);
+o_seg_n <= w_seg;
         
 
 end Behavioral;
